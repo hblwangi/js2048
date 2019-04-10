@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    font:"Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;
+}
+
+.clearFloat::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#container{
+    background: aquamarine;
+    margin: 100px auto;
+    width: 420px;
+    height: 420px;
+    overflow: hidden;
+}
+
+#container ul li{
+    list-style: none;
+    background: rgb(127, 129, 255);
+    width: 82px;
+    height: 82px;
+    color: #fff;
+    line-height: 82px;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 10px;
+}
+#container ul{
+    width: 400px;
+    height: 400px;
+    margin: 18px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#container ul .num2{
+    background: #fcd8c8
+}
+#container ul .num4{
+    background: #ffc5ad
+}
+#container ul .num8{
+    background: #ffba9d
+}
+#container ul .num16{
+    background: #ff9c71
+}
+#container ul .num32{
+    background: #ff8551
+}
+#container ul .num64{
+    background: #ff6929
+}
+#container ul .num128{
+    background: #fd7d7d
+}
+#container ul .num256{
+    background: #f36c6c
+}
+#container ul .num512{
+    background: #f15e5e
+}
+#container ul .num1024{
+    background: #dd4949
+}
+#container ul .num2048{
+    background: #d63a3a
+}
+#container ul .num4096{
+    background: #a71f1f
+}
+#container ul .num8192{
+    background: #971616
+}
